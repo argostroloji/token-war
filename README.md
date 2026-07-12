@@ -22,7 +22,7 @@
 ## Run locally
 
 ```bash
-node server.js   # http://localhost:5178 — static files + a rate-limit-friendly API proxy
+node dev-server.js   # http://localhost:5178 — static files + a rate-limit-friendly API proxy
 ```
 
 Deployed builds (Vercel/Pages/any static host) don't need the server: the client talks to the GeckoTerminal API directly.
