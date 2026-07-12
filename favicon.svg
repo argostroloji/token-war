@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#CCFF00"/>
+  <!-- crossed swords, Robinhood palette: solid black on neon lime -->
+  <g fill="#0B0D08">
+    <g transform="rotate(45 256 256)">
+      <path d="M256 46 L288 102 L288 314 L224 314 L224 102 Z"/>
+      <rect x="182" y="314" width="148" height="32" rx="11"/>
+      <rect x="239" y="346" width="34" height="72" rx="9"/>
+      <rect x="228" y="418" width="56" height="36" rx="12"/>
+    </g>
+    <!-- top sword passes over with a bg-colored gap (woven look) -->
+    <g transform="rotate(-45 256 256)" stroke="#CCFF00" stroke-width="24" stroke-linejoin="round" paint-order="stroke">
+      <path d="M256 46 L288 102 L288 314 L224 314 L224 102 Z"/>
+      <rect x="182" y="314" width="148" height="32" rx="11"/>
+      <rect x="239" y="346" width="34" height="72" rx="9"/>
+      <rect x="228" y="418" width="56" height="36" rx="12"/>
+    </g>
+  </g>
+</svg>
